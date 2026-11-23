@@ -1,0 +1,11 @@
+FICTIONAL COMPANY: Norvale Microdevices Inc. Annual report excerpt, fiscal 2025 (synthetic, for testing).
+Item 1. Business. Norvale designs analog power chips and outsources all wafer fabrication to two foundries,
+one in Taiwan and one in Germany. The Taiwan foundry produced about 70% of wafers in fiscal 2025.
+Revenue was $412 million, up 9% from $378 million in fiscal 2024. The company had 1,150 employees at year end.
+Item 1A. Risk Factors. Our dependence on a small number of foundries is a principal risk; a disruption at the
+Taiwan foundry would materially harm revenue. Water scarcity in Taiwan has caused foundry rationing in the past.
+Some products use tantalum and tin; we survey smelters under our conflict minerals program and filed Form SD.
+Item 7. MD&A. Gross margin was 54%, down from 57%, driven by higher wafer prices. Research and development spend
+was $88 million. We do not report Scope 1 or Scope 2 greenhouse gas emissions. Our own operations are design
+offices and a test facility in Arizona; the test facility uses about 40 million gallons of water per year.
+We have not set an emissions reduction target. We have no product recalls in fiscal 2025.

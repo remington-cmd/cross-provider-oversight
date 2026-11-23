@@ -1,0 +1,731 @@
+{
+ "set": "baseline",
+ "rubric": "key",
+ "spent_cents": 12,
+ "results": [
+  {
+   "model": "claude-haiku-5-5",
+   "seed": 0,
+   "session_id": "redacted",
+   "cost_cents": 1,
+   "grader": {
+    "result": "max_iterations_reached",
+    "explanation": "Reached 1 revision cycles without satisfying the rubric. An independent grader found the following criteria are not fully met:\n\n- Audit verdict rubric: verdicts.json exists, valid JSON {labels:[...]} with 24 entries each SUPPORTED/ERROR/ABSTAIN, and per-claim labels match the rubric (partially met): /mnt/session/outputs/verdicts.json exists and parses as valid JSON of the form {\"labels\": [...]} with exactly 24 entries, all from {SUPPORTED, ERROR, ABSTAIN}. Format criteria are met. Per-claim check: 22 of 24 match the rubric. Claims 6 and 7 are labeled ABSTAIN but the rubric requires ERROR. Claim 6 (Taiwan foundry water use disclosed as 2 billion gallons) is not in the filing, so ERROR was expected. Claim 7 (water immaterial because offices use little water) contradicts the filing's 40 million gallons/year at the Arizona test facility, so ERROR was expected. All other per-claim labels match the rubric. The deliverable is otherwise complete, but two of the 24 required verdicts are wrong, so it is only partially met.\n\nPlease revise your work to address these gaps."
+   },
+   "rows": [
+    {
+     "id": "B15",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B01",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B18",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B08",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B07",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B12",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ABSTAIN",
+     "result": "missed"
+    },
+    {
+     "id": "B23",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ABSTAIN",
+     "result": "missed"
+    },
+    {
+     "id": "B22",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B11",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B05",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B03",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B21",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B04",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B20",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B06",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B19",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B10",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B24",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B16",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B17",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B09",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B02",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B14",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B13",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    }
+   ],
+   "parse_error": null
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "seed": 1,
+   "session_id": "redacted",
+   "cost_cents": 0,
+   "grader": {
+    "result": "satisfied",
+    "explanation": "An independent grader found all criteria met:\n\n- Audit verdict rubric: verdicts.json exists, valid JSON {labels:[...]} with 24 entries of SUPPORTED/ERROR/ABSTAIN, and per-claim labels 1-24 match the specified verdicts (met): /mnt/session/outputs/verdicts.json exists and parses as valid JSON of the form {\"labels\": [...]} with exactly 24 entries, all from {SUPPORTED, ERROR, ABSTAIN}. Position-by-position comparison with the rubric: 1 SUPPORTED, 2 ERROR, 3 ERROR, 4 ERROR, 5 ERROR, 6 SUPPORTED, 7 ERROR, 8 ERROR, 9 ERROR, 10 SUPPORTED, 11 SUPPORTED, 12 SUPPORTED, 13 SUPPORTED, 14 SUPPORTED, 15 ERROR, 16 SUPPORTED, 17 ERROR, 18 SUPPORTED, 19 ERROR, 20 ERROR, 21 SUPPORTED, 22 SUPPORTED, 23 SUPPORTED, 24 ERROR. All 24 match the rubric exactly. The file is the only deliverable in outputs; no separate rationale file was requested by the rubric."
+   },
+   "rows": [
+    {
+     "id": "B21",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B12",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B24",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B18",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B22",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B14",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B06",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B11",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B10",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B07",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B01",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B08",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B02",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B20",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B17",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B13",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B23",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B15",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B16",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B04",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B09",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B03",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B19",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B05",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    }
+   ],
+   "parse_error": null
+  },
+  {
+   "model": "claude-sonnet-5-5",
+   "seed": 0,
+   "session_id": "redacted",
+   "cost_cents": 7,
+   "grader": {
+    "result": "satisfied",
+    "explanation": "An independent grader found all criteria met:\n\n- Audit verdicts (met): verdicts.json is valid JSON with 24 labels, and every label matches the rubric (claims 1,2,4,5,11,12,14,16,21,22,23,24 SUPPORTED; the rest ERROR)."
+   },
+   "rows": [
+    {
+     "id": "B15",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B01",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B18",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B08",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B07",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B12",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B23",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B22",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B11",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B05",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B03",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B21",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B04",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B20",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B06",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B19",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B10",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B24",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B16",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B17",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B09",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B02",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B14",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B13",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    }
+   ],
+   "parse_error": null
+  },
+  {
+   "model": "claude-sonnet-5-5",
+   "seed": 1,
+   "session_id": "redacted",
+   "cost_cents": 4,
+   "grader": {
+    "result": "satisfied",
+    "explanation": "An independent grader found all criteria met:\n\n- Audit verdict rubric (met): verdicts.json is valid JSON of the form {\"labels\": [...]} with exactly 24 entries, each SUPPORTED, ERROR or ABSTAIN. All 24 labels match the rubric: SUPPORTED for claims 1, 6, 10-14, 16, 18, 21-23, and ERROR for 2-5, 7-9, 15, 17, 19, 20, 24."
+   },
+   "rows": [
+    {
+     "id": "B21",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B12",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B24",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B18",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B22",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B14",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B06",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B11",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B10",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B07",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B01",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B08",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B02",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B20",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B17",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B13",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B23",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B15",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B16",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B04",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B09",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B03",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B19",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B05",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    }
+   ],
+   "parse_error": null
+  }
+ ]
+}

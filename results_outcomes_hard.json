@@ -1,0 +1,1455 @@
+{
+ "set": "hard",
+ "rubric": "key",
+ "spent_cents": 17,
+ "results": [
+  {
+   "model": "claude-haiku-5-5",
+   "seed": 0,
+   "session_id": "redacted",
+   "cost_cents": 0,
+   "grader": {
+    "result": "max_iterations_reached",
+    "explanation": "Reached 1 revision cycles without satisfying the rubric. An independent grader found the following criteria are not fully met:\n\n- Audit verdict rubric (verdicts.json exists, valid JSON, 24 labels from SUPPORTED/ERROR/ABSTAIN, per-claim verdicts 1-24 match) (partially met): /mnt/session/outputs/verdicts.json exists, is valid JSON of the form {\"labels\": [...]} with exactly 24 entries, all drawn from SUPPORTED/ERROR/ABSTAIN. Format criteria are met. Per-claim comparison against the rubric: 21 of 24 match. Three mismatches: Claim 6 is labeled ABSTAIN (rubric requires ERROR; the filing's $412M is Norvale's own revenue, so the claim is an error); Claim 9 is labeled ABSTAIN (rubric requires ERROR; the 1,150 employees are described as Norvale's year-end count, not including foundries); Claim 21 is labeled ABSTAIN (rubric requires ERROR; the filing says 'We have no product recalls in fiscal 2025' and says nothing about fiscal 2024, so the claim is contradicted/unsupported as stated and the rubric expects ERROR). All other per-claim verdicts (1-5, 7-8, 10-20, 22-24) match the rubric.\n\nPlease revise your work to address these gaps."
+   },
+   "rows": [
+    {
+     "id": "H15",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H01",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H18",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H08",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H07",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H12",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ABSTAIN",
+     "result": "missed"
+    },
+    {
+     "id": "H23",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H22",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H11",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ABSTAIN",
+     "result": "missed"
+    },
+    {
+     "id": "H05",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H03",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H21",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H04",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H20",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H06",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H19",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H10",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H24",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H16",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H17",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H09",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ABSTAIN",
+     "result": "missed"
+    },
+    {
+     "id": "H02",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H14",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H13",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    }
+   ],
+   "parse_error": null
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "seed": 1,
+   "session_id": "redacted",
+   "cost_cents": 0,
+   "grader": {
+    "result": "max_iterations_reached",
+    "explanation": "Reached 1 revision cycles without satisfying the rubric. An independent grader found the following criteria are not fully met:\n\n- Audit verdict rubric: verdicts.json exists, valid JSON {labels:[...]} with 24 entries each SUPPORTED/ERROR/ABSTAIN, and per-claim labels 1-24 as specified (partially met): /mnt/session/outputs/verdicts.json exists, is valid JSON of the form {\"labels\":[...]} with exactly 24 entries, all from {SUPPORTED, ERROR, ABSTAIN}. Structure criteria are met. Per-claim comparison against the rubric: 21 of 24 match. Three mismatches: Claim 2 (fiscal 2025 revenue as combined revenue of Norvale and its foundries; the filing says nothing about foundry revenue) is labeled ABSTAIN but rubric requires ERROR; Claim 8 (1,150 headcount includes both foundries' staff; filing does not say this, and it is an unsupported claim) is labeled ABSTAIN but rubric requires ERROR; Claim 21 (no product recalls reported in fiscal 2024; filing only addresses fiscal 2025) is labeled ABSTAIN but rubric requires ERROR. All other per-claim labels match the rubric, including the ERROR labels for claims 7, 9-13, 20, 22, 24 and SUPPORTED for 1, 3-6, 14-19, 23.\n\nPlease revise your work to address these gaps."
+   },
+   "rows": [
+    {
+     "id": "H21",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H12",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ABSTAIN",
+     "result": "missed"
+    },
+    {
+     "id": "H24",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H18",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H22",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H14",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H06",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H11",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ABSTAIN",
+     "result": "missed"
+    },
+    {
+     "id": "H10",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H07",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H01",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H08",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H02",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H20",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H17",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H13",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H23",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H15",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H16",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H04",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H09",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ABSTAIN",
+     "result": "missed"
+    },
+    {
+     "id": "H03",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H19",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H05",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    }
+   ],
+   "parse_error": null
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "seed": 2,
+   "session_id": "redacted",
+   "cost_cents": 0,
+   "grader": {
+    "result": "max_iterations_reached",
+    "explanation": "Reached 1 revision cycles without satisfying the rubric. An independent grader found the following criteria are not fully met:\n\n- Audit verdict rubric: verdicts.json exists, valid JSON {labels:[...]} with 24 entries from SUPPORTED/ERROR/ABSTAIN, and per-claim labels match rubric (partially met): /mnt/session/outputs/verdicts.json exists, is valid JSON of the form {\"labels\": [...]}, and has exactly 24 entries, all from {SUPPORTED, ERROR, ABSTAIN}. 22 of 24 per-claim labels match the rubric. Two mismatches: Claim 14 (1,150 headcount includes foundry staff) is labeled ABSTAIN but the rubric requires ERROR; Claim 18 (no product recalls in fiscal 2024) is labeled ABSTAIN but the rubric requires ERROR. All other per-claim labels (1-13, 15-17, 19-24) match, including Claim 3/12 (gallons, SUPPORTED for 12, ERROR for 3), Claim 17 ERROR, Claim 22 SUPPORTED, and Claim 23/24 ERROR. Because the per-claim verdict set is not fully correct, the criterion is only partially met.\n\nPlease revise your work to address these gaps."
+   },
+   "rows": [
+    {
+     "id": "H16",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H08",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H01",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H13",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H15",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H04",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H05",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H20",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H18",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H21",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H14",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H17",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H22",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H11",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ABSTAIN",
+     "result": "missed"
+    },
+    {
+     "id": "H19",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H24",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H07",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H09",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ABSTAIN",
+     "result": "missed"
+    },
+    {
+     "id": "H10",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H06",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H12",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H23",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H03",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H02",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    }
+   ],
+   "parse_error": null
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "seed": 3,
+   "session_id": "redacted",
+   "cost_cents": 0,
+   "grader": {
+    "result": "max_iterations_reached",
+    "explanation": "Reached 1 revision cycles without satisfying the rubric. An independent grader found the following criteria are not fully met:\n\n- Audit verdict rubric: verdicts.json exists, valid JSON {labels:[...]} with 24 entries each SUPPORTED/ERROR/ABSTAIN, and per-claim labels match the rubric (partially met): /mnt/session/outputs/verdicts.json exists and is valid JSON of the form {\"labels\": [...]} with exactly 24 entries, all from the allowed set. 22 of 24 per-claim labels match the rubric. Mismatches: Claim 8 (1,150 employees includes both foundries) is labeled ABSTAIN but rubric requires ERROR; Claim 14 (no product recalls in fiscal 2024) is labeled ABSTAIN but rubric requires ERROR. All other per-claim labels (1-7, 9-13, 15-24) match exactly. Because two per-claim verdicts deviate from the required labels, the outcome is only partially met.\n\nPlease revise your work to address these gaps."
+   },
+   "rows": [
+    {
+     "id": "H07",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H17",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H22",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H15",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H02",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H06",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H20",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H11",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ABSTAIN",
+     "result": "missed"
+    },
+    {
+     "id": "H10",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H14",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H24",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H13",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H04",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H09",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ABSTAIN",
+     "result": "missed"
+    },
+    {
+     "id": "H21",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H23",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H01",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H03",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H16",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H12",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H05",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H18",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "ERROR",
+     "result": "false_alarm"
+    },
+    {
+     "id": "H19",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H08",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    }
+   ],
+   "parse_error": null
+  },
+  {
+   "model": "claude-sonnet-5-5",
+   "seed": 0,
+   "session_id": "redacted",
+   "cost_cents": 4,
+   "grader": {
+    "result": "max_iterations_reached",
+    "explanation": "Reached 1 revision cycles without satisfying the rubric. An independent grader found the following criteria are not fully met:\n\n- Audit verdicts rubric (partially met): verdicts.json exists, is valid JSON, and has 24 valid labels. 22 of 24 match the rubric. Claim 17 (Taiwan foundry uses about 40 million gallons of water per year) is labeled ABSTAIN, but the rubric expects ERROR. Claim 21 (no product recalls reported in fiscal 2024) is labeled ABSTAIN, but the rubric expects ERROR. The other 22 labels are correct.\n\nPlease revise your work to address these gaps."
+   },
+   "rows": [
+    {
+     "id": "H15",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H01",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H18",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H08",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H07",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H12",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H23",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H22",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H11",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H05",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H03",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H21",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H04",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H20",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H06",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H19",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H10",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ABSTAIN",
+     "result": "missed"
+    },
+    {
+     "id": "H24",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H16",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H17",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H09",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ABSTAIN",
+     "result": "missed"
+    },
+    {
+     "id": "H02",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H14",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H13",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    }
+   ],
+   "parse_error": null
+  },
+  {
+   "model": "claude-sonnet-5-5",
+   "seed": 1,
+   "session_id": "redacted",
+   "cost_cents": 4,
+   "grader": {
+    "result": "max_iterations_reached",
+    "explanation": "Reached 1 revision cycles without satisfying the rubric. An independent grader found the following criteria are not fully met:\n\n- Audit verdicts rubric (partially met): verdicts.json exists, is valid JSON with 24 valid labels, and 23 of 24 per-claim labels match the rubric. Claim 21 is labeled ABSTAIN, but the rubric requires ERROR. The rubric expects the filing's silence on fiscal 2024 recalls to be marked as an error, not an abstention.\n\nPlease revise your work to address these gaps."
+   },
+   "rows": [
+    {
+     "id": "H21",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H12",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H24",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H18",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H22",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H14",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H06",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H11",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H10",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H07",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H01",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H08",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H02",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H20",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H17",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H13",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H23",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H15",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H16",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H04",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H09",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ABSTAIN",
+     "result": "missed"
+    },
+    {
+     "id": "H03",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H19",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H05",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    }
+   ],
+   "parse_error": null
+  },
+  {
+   "model": "claude-sonnet-5-5",
+   "seed": 2,
+   "session_id": "redacted",
+   "cost_cents": 5,
+   "grader": {
+    "result": "max_iterations_reached",
+    "explanation": "Reached 1 revision cycles without satisfying the rubric. An independent grader found the following criteria are not fully met:\n\n- Audit verdicts (partially met): verdicts.json exists, is valid JSON, and has 24 valid labels. 22 of 24 match the rubric. Claim 18 (no recalls in fiscal 2024) is labeled ABSTAIN, but the rubric expects ERROR. Claim 19 (Taiwan foundry uses 40 million gallons of water) is labeled ABSTAIN, but the rubric expects ERROR.\n\nPlease revise your work to address these gaps."
+   },
+   "rows": [
+    {
+     "id": "H16",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H08",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H01",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H13",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H15",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H04",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H05",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H20",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H18",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H21",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H14",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H17",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H22",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H11",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H19",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H24",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H07",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H09",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ABSTAIN",
+     "result": "missed"
+    },
+    {
+     "id": "H10",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ABSTAIN",
+     "result": "missed"
+    },
+    {
+     "id": "H06",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H12",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H23",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H03",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H02",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    }
+   ],
+   "parse_error": null
+  },
+  {
+   "model": "claude-sonnet-5-5",
+   "seed": 3,
+   "session_id": "redacted",
+   "cost_cents": 4,
+   "grader": {
+    "result": "max_iterations_reached",
+    "explanation": "Reached 1 revision cycles without satisfying the rubric. An independent grader found the following criteria are not fully met:\n\n- Audit verdicts rubric (partially met): verdicts.json is valid JSON with 24 valid labels, and 20 of the 24 per-claim verdicts match the rubric. Four are labeled ABSTAIN where the rubric requires ERROR: claim 8 (employee count includes foundry staff), claim 9 (Taiwan foundry water use), claim 14 (no recalls in fiscal 2024) and claim 20 (revenue is combined with the foundries). The filing's text contradicts or does not support these claims, so ERROR was expected. Because those four are wrong, the outcome is only partly met.\n\nPlease revise your work to address these gaps."
+   },
+   "rows": [
+    {
+     "id": "H07",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H17",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H22",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H15",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H02",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H06",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H20",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H11",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ABSTAIN",
+     "result": "missed"
+    },
+    {
+     "id": "H10",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ABSTAIN",
+     "result": "missed"
+    },
+    {
+     "id": "H14",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H24",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H13",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H04",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H09",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ABSTAIN",
+     "result": "missed"
+    },
+    {
+     "id": "H21",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H23",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H01",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H03",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H16",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H12",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ABSTAIN",
+     "result": "missed"
+    },
+    {
+     "id": "H05",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H18",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H19",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H08",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    }
+   ],
+   "parse_error": null
+  }
+ ]
+}

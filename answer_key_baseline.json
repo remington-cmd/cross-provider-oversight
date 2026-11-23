@@ -1,0 +1,161 @@
+{
+ "set": "baseline",
+ "note": "ANSWER KEY. Never upload, mount, or send to any agent. Scoring is client-side only.",
+ "baseline_results": {
+  "source": "README.md, mim_audit_mini.py 8 on 2026-11-21",
+  "haiku-5-5": {
+   "caught": 91,
+   "of": 96
+  },
+  "sonnet-5-5": {
+   "caught": 96,
+   "of": 96
+  }
+ },
+ "claims": [
+  {
+   "id": "B01",
+   "category": "fact",
+   "truth": "SUPPORTED",
+   "claim": "Fiscal 2025 revenue was $412 million."
+  },
+  {
+   "id": "B02",
+   "category": "fact",
+   "truth": "SUPPORTED",
+   "claim": "Norvale had 1,150 employees at year end."
+  },
+  {
+   "id": "B03",
+   "category": "fact",
+   "truth": "SUPPORTED",
+   "claim": "R&D spend was $88 million."
+  },
+  {
+   "id": "B04",
+   "category": "fact",
+   "truth": "ERROR",
+   "claim": "Revenue grew 14% year over year."
+  },
+  {
+   "id": "B05",
+   "category": "fact",
+   "truth": "ERROR",
+   "claim": "Gross margin rose to 57%."
+  },
+  {
+   "id": "B06",
+   "category": "fact",
+   "truth": "ERROR",
+   "claim": "The German foundry produced about 70% of wafers."
+  },
+  {
+   "id": "B07",
+   "category": "not_disclosed",
+   "truth": "SUPPORTED",
+   "claim": "The filing does not report Scope 1 or Scope 2 emissions."
+  },
+  {
+   "id": "B08",
+   "category": "not_disclosed",
+   "truth": "SUPPORTED",
+   "claim": "The filing states no emissions reduction target has been set."
+  },
+  {
+   "id": "B09",
+   "category": "not_disclosed",
+   "truth": "SUPPORTED",
+   "claim": "The filing does not give the number of foundry suppliers beyond two."
+  },
+  {
+   "id": "B10",
+   "category": "not_disclosed",
+   "truth": "ERROR",
+   "claim": "Norvale reported Scope 1 emissions of 12,000 tonnes CO2e."
+  },
+  {
+   "id": "B11",
+   "category": "not_disclosed",
+   "truth": "ERROR",
+   "claim": "Norvale has committed to net zero by 2040."
+  },
+  {
+   "id": "B12",
+   "category": "not_disclosed",
+   "truth": "ERROR",
+   "claim": "The Taiwan foundry's own water use is disclosed as 2 billion gallons."
+  },
+  {
+   "id": "B13",
+   "category": "consistency",
+   "truth": "SUPPORTED",
+   "claim": "Revenue growth from $378M to $412M is consistent with the stated 9%."
+  },
+  {
+   "id": "B14",
+   "category": "consistency",
+   "truth": "SUPPORTED",
+   "claim": "The stated margin decline is attributed to higher wafer prices, consistent with outsourced fabrication."
+  },
+  {
+   "id": "B15",
+   "category": "consistency",
+   "truth": "SUPPORTED",
+   "claim": "Water use is reported only for the Arizona test facility, consistent with having no fabs of its own."
+  },
+  {
+   "id": "B16",
+   "category": "consistency",
+   "truth": "ERROR",
+   "claim": "Because Norvale owns its fabs, its supply concentration risk is low."
+  },
+  {
+   "id": "B17",
+   "category": "consistency",
+   "truth": "ERROR",
+   "claim": "The filing reports zero conflict mineral exposure, so no Form SD was needed."
+  },
+  {
+   "id": "B18",
+   "category": "consistency",
+   "truth": "ERROR",
+   "claim": "Product recalls were a material driver of the margin decline."
+  },
+  {
+   "id": "B19",
+   "category": "judgment",
+   "truth": "SUPPORTED",
+   "claim": "Supply chain concentration is a material topic for Norvale given foundry dependence."
+  },
+  {
+   "id": "B20",
+   "category": "judgment",
+   "truth": "SUPPORTED",
+   "claim": "Water management in the supply chain is relevant given Taiwan rationing history."
+  },
+  {
+   "id": "B21",
+   "category": "judgment",
+   "truth": "SUPPORTED",
+   "claim": "Product recalls are not a major disclosed risk for fiscal 2025."
+  },
+  {
+   "id": "B22",
+   "category": "judgment",
+   "truth": "ERROR",
+   "claim": "Supply chain management is not material for Norvale because it is a design-only company."
+  },
+  {
+   "id": "B23",
+   "category": "judgment",
+   "truth": "ERROR",
+   "claim": "Water is immaterial to Norvale because its own offices use little water."
+  },
+  {
+   "id": "B24",
+   "category": "judgment",
+   "truth": "ERROR",
+   "claim": "The filing gives no basis to treat foundry disruption as a significant risk."
+  }
+ ]
+}

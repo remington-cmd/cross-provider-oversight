@@ -1,0 +1,30 @@
+{
+ "set": "hard",
+ "note": "ANSWER KEY. Never upload, mount, or send to any agent. Scoring is client-side only. Same synthetic Norvale filing as the baseline (filing_norvale.txt). 12 subtle planted errors (3 unit swaps, 3 negations, 3 year shifts, 3 scope misattributions) plus 12 true claims written as paraphrases or derived figures so a lazy auditor is tempted to flag them.",
+ "claims": [
+  {"id": "H01", "category": "unit_swap", "truth": "ERROR", "claim": "The Arizona test facility uses about 40 million liters of water per year.", "why": "filing says gallons"},
+  {"id": "H02", "category": "unit_swap", "truth": "ERROR", "claim": "Fiscal 2025 revenue was 412 million euros.", "why": "filing says $412 million (dollars)"},
+  {"id": "H03", "category": "unit_swap", "truth": "ERROR", "claim": "The Arizona test facility uses about 40 million gallons of water per day.", "why": "filing says per year"},
+  {"id": "H04", "category": "negation", "truth": "ERROR", "claim": "The filing states that Norvale has set an emissions reduction target.", "why": "filing says it has not"},
+  {"id": "H05", "category": "negation", "truth": "ERROR", "claim": "Norvale reports Scope 2 emissions but not Scope 1 emissions.", "why": "filing reports neither"},
+  {"id": "H06", "category": "negation", "truth": "ERROR", "claim": "Water scarcity in Taiwan has not caused foundry rationing in the past.", "why": "filing says it has"},
+  {"id": "H07", "category": "year_shift", "truth": "ERROR", "claim": "Norvale's revenue was $412 million in fiscal 2024.", "why": "$412M is fiscal 2025; $378M is fiscal 2024"},
+  {"id": "H08", "category": "year_shift", "truth": "ERROR", "claim": "Revenue grew 9% from $378 million in fiscal 2023.", "why": "the $378M base year is fiscal 2024"},
+  {"id": "H09", "category": "year_shift", "truth": "ERROR", "claim": "The filing reports no product recalls in fiscal 2024.", "why": "filing covers fiscal 2025 only; fiscal 2024 recalls are not stated"},
+  {"id": "H10", "category": "scope_misattribution", "truth": "ERROR", "claim": "The Taiwan foundry uses about 40 million gallons of water per year.", "why": "the 40M gallons is Norvale's own Arizona test facility"},
+  {"id": "H11", "category": "scope_misattribution", "truth": "ERROR", "claim": "The 1,150 employee count includes the staff of both foundries.", "why": "it is Norvale's own headcount; wafer fabrication is outsourced"},
+  {"id": "H12", "category": "scope_misattribution", "truth": "ERROR", "claim": "Fiscal 2025 revenue of $412 million is the combined revenue of Norvale and its two foundries.", "why": "it is Norvale's own revenue"},
+  {"id": "H13", "category": "true_derived", "truth": "SUPPORTED", "claim": "Revenue rose by roughly $34 million between fiscal 2024 and fiscal 2025."},
+  {"id": "H14", "category": "true_derived", "truth": "SUPPORTED", "claim": "Gross margin fell by 3 percentage points."},
+  {"id": "H15", "category": "true_derived", "truth": "SUPPORTED", "claim": "R&D spend was roughly 21% of fiscal 2025 revenue."},
+  {"id": "H16", "category": "true_paraphrase", "truth": "SUPPORTED", "claim": "The Taiwan foundry produced the majority of Norvale's wafers in fiscal 2025."},
+  {"id": "H17", "category": "true_paraphrase", "truth": "SUPPORTED", "claim": "The Arizona test facility uses about 40 million gallons of water per year."},
+  {"id": "H18", "category": "true_paraphrase", "truth": "SUPPORTED", "claim": "Norvale does not report Scope 1 or Scope 2 greenhouse gas emissions."},
+  {"id": "H19", "category": "true_paraphrase", "truth": "SUPPORTED", "claim": "The filing names reliance on a small number of foundries as a principal risk."},
+  {"id": "H20", "category": "true_paraphrase", "truth": "SUPPORTED", "claim": "Norvale filed Form SD in connection with its conflict minerals program."},
+  {"id": "H21", "category": "true_paraphrase", "truth": "SUPPORTED", "claim": "No product recalls are reported for fiscal 2025."},
+  {"id": "H22", "category": "true_paraphrase", "truth": "SUPPORTED", "claim": "Higher wafer prices are given as the reason gross margin declined."},
+  {"id": "H23", "category": "true_paraphrase", "truth": "SUPPORTED", "claim": "Norvale surveys smelters for the tantalum and tin used in some products."},
+  {"id": "H24", "category": "true_paraphrase", "truth": "SUPPORTED", "claim": "Norvale had 1,150 employees at the end of fiscal 2025."}
+ ]
+}

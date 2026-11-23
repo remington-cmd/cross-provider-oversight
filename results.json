@@ -1,0 +1,664 @@
+{
+ "summary": {
+  "claude-haiku-5-5": {
+   "valid_runs": 8,
+   "fact": {
+    "catch": "23/24",
+    "false_alarm": "0/24"
+   },
+   "not_disclosed": {
+    "catch": "20/24",
+    "false_alarm": "1/24"
+   },
+   "consistency": {
+    "catch": "24/24",
+    "false_alarm": "2/24"
+   },
+   "judgment": {
+    "catch": "24/24",
+    "false_alarm": "0/24"
+   }
+  },
+  "claude-sonnet-5-5": {
+   "valid_runs": 8,
+   "fact": {
+    "catch": "24/24",
+    "false_alarm": "0/24"
+   },
+   "not_disclosed": {
+    "catch": "24/24",
+    "false_alarm": "0/24"
+   },
+   "consistency": {
+    "catch": "24/24",
+    "false_alarm": "1/24"
+   },
+   "judgment": {
+    "catch": "24/24",
+    "false_alarm": "0/24"
+   }
+  },
+  "joint_miss_same_seed": "0/96",
+  "spend_usd_estimate": 0.1491
+ },
+ "claims": [
+  [
+   "fact",
+   true,
+   "Fiscal 2025 revenue was $412 million."
+  ],
+  [
+   "fact",
+   true,
+   "Norvale had 1,150 employees at year end."
+  ],
+  [
+   "fact",
+   true,
+   "R&D spend was $88 million."
+  ],
+  [
+   "fact",
+   false,
+   "Revenue grew 14% year over year."
+  ],
+  [
+   "fact",
+   false,
+   "Gross margin rose to 57%."
+  ],
+  [
+   "fact",
+   false,
+   "The German foundry produced about 70% of wafers."
+  ],
+  [
+   "not_disclosed",
+   true,
+   "The filing does not report Scope 1 or Scope 2 emissions."
+  ],
+  [
+   "not_disclosed",
+   true,
+   "The filing states no emissions reduction target has been set."
+  ],
+  [
+   "not_disclosed",
+   true,
+   "The filing does not give the number of foundry suppliers beyond two."
+  ],
+  [
+   "not_disclosed",
+   false,
+   "Norvale reported Scope 1 emissions of 12,000 tonnes CO2e."
+  ],
+  [
+   "not_disclosed",
+   false,
+   "Norvale has committed to net zero by 2040."
+  ],
+  [
+   "not_disclosed",
+   false,
+   "The Taiwan foundry's own water use is disclosed as 2 billion gallons."
+  ],
+  [
+   "consistency",
+   true,
+   "Revenue growth from $378M to $412M is consistent with the stated 9%."
+  ],
+  [
+   "consistency",
+   true,
+   "The stated margin decline is attributed to higher wafer prices, consistent with outsourced fabrication."
+  ],
+  [
+   "consistency",
+   true,
+   "Water use is reported only for the Arizona test facility, consistent with having no fabs of its own."
+  ],
+  [
+   "consistency",
+   false,
+   "Because Norvale owns its fabs, its supply concentration risk is low."
+  ],
+  [
+   "consistency",
+   false,
+   "The filing reports zero conflict mineral exposure, so no Form SD was needed."
+  ],
+  [
+   "consistency",
+   false,
+   "Product recalls were a material driver of the margin decline."
+  ],
+  [
+   "judgment",
+   true,
+   "Supply chain concentration is a material topic for Norvale given foundry dependence."
+  ],
+  [
+   "judgment",
+   true,
+   "Water management in the supply chain is relevant given Taiwan rationing history."
+  ],
+  [
+   "judgment",
+   true,
+   "Product recalls are not a major disclosed risk for fiscal 2025."
+  ],
+  [
+   "judgment",
+   false,
+   "Supply chain management is not material for Norvale because it is a design-only company."
+  ],
+  [
+   "judgment",
+   false,
+   "Water is immaterial to Norvale because its own offices use little water."
+  ],
+  [
+   "judgment",
+   false,
+   "The filing gives no basis to treat foundry disruption as a significant risk."
+  ]
+ ],
+ "runs": [
+  {
+   "model": "claude-haiku-5-5",
+   "seed": 0,
+   "labels": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ABSTAIN",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR"
+   ],
+   "cost": 0.008788
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "seed": 1,
+   "labels": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "SUPPORTED",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR"
+   ],
+   "cost": 0.009042999999999999
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "seed": 2,
+   "labels": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR"
+   ],
+   "cost": 0.008133
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "seed": 3,
+   "labels": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR"
+   ],
+   "cost": 0.008158
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "seed": 4,
+   "labels": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR"
+   ],
+   "cost": 0.008323
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "seed": 5,
+   "labels": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ABSTAIN",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR"
+   ],
+   "cost": 0.009173
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "seed": 6,
+   "labels": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ABSTAIN",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR"
+   ],
+   "cost": 0.009033
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "seed": 7,
+   "labels": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ABSTAIN",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR"
+   ],
+   "cost": 0.009603
+  },
+  {
+   "model": "claude-sonnet-5-5",
+   "seed": 0,
+   "labels": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR"
+   ],
+   "cost": 0.013253999999999998
+  },
+  {
+   "model": "claude-sonnet-5-5",
+   "seed": 1,
+   "labels": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR"
+   ],
+   "cost": 0.005993999999999999
+  },
+  {
+   "model": "claude-sonnet-5-5",
+   "seed": 2,
+   "labels": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR"
+   ],
+   "cost": 0.012804
+  },
+  {
+   "model": "claude-sonnet-5-5",
+   "seed": 3,
+   "labels": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR"
+   ],
+   "cost": 0.005993999999999999
+  },
+  {
+   "model": "claude-sonnet-5-5",
+   "seed": 4,
+   "labels": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR"
+   ],
+   "cost": 0.005979
+  },
+  {
+   "model": "claude-sonnet-5-5",
+   "seed": 5,
+   "labels": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR"
+   ],
+   "cost": 0.005934
+  },
+  {
+   "model": "claude-sonnet-5-5",
+   "seed": 6,
+   "labels": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR"
+   ],
+   "cost": 0.012249
+  },
+  {
+   "model": "claude-sonnet-5-5",
+   "seed": 7,
+   "labels": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "ERROR",
+    "ERROR",
+    "ERROR"
+   ],
+   "cost": 0.016614
+  }
+ ]
+}

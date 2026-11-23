@@ -1,0 +1,2840 @@
+{
+ "model": "gemini-4-hydrogen",
+ "mode": "live",
+ "spend_usd": 2.6124,
+ "results": [
+  {
+   "set": "baseline",
+   "seed": 0,
+   "usage": {
+    "in": 853,
+    "out_incl_thinking": 1898,
+    "finish_reason": "FinishReason.STOP",
+    "model_version": "gemini-4-hydrogen"
+   },
+   "cost_usd": 0.042225,
+   "raw_text": "{\"labels\": [\"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"ERROR\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\"]}",
+   "rows": [
+    {
+     "id": "B15",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B01",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B18",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B08",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B07",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B12",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B23",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B22",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B11",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B05",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B03",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B21",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B04",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B20",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B06",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B19",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B10",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B24",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B16",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B17",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B09",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B02",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B14",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B13",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    }
+   ],
+   "parse_error": null,
+   "rerun": {
+    "tries": 1,
+    "max_out": 32000
+   },
+   "first_attempt": {
+    "error": "ClientError: 402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at",
+    "parse_error": null,
+    "usage": null
+   }
+  },
+  {
+   "set": "baseline",
+   "seed": 1,
+   "usage": {
+    "in": 853,
+    "out_incl_thinking": 2019,
+    "finish_reason": "FinishReason.STOP",
+    "model_version": "gemini-4-hydrogen"
+   },
+   "cost_usd": 0.044645,
+   "raw_text": "{\"labels\": [\"SUPPORTED\", \"ERROR\", \"ERROR\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\"]}",
+   "rows": [
+    {
+     "id": "B21",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B12",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B24",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B18",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B22",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B14",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B06",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B11",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B10",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B07",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B01",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B08",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B02",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B20",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B17",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B13",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B23",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B15",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B16",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B04",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B09",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B03",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B19",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B05",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    }
+   ],
+   "parse_error": null,
+   "rerun": {
+    "tries": 1,
+    "max_out": 32000
+   },
+   "first_attempt": {
+    "error": "ClientError: 402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at",
+    "parse_error": null,
+    "usage": null
+   }
+  },
+  {
+   "set": "baseline",
+   "seed": 2,
+   "usage": {
+    "in": 853,
+    "out_incl_thinking": 1351,
+    "model_version": "gemini-4-hydrogen"
+   },
+   "cost_usd": 0.031285,
+   "raw_text": "{\"labels\": [\"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\"]}",
+   "rows": [
+    {
+     "id": "B16",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B08",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B01",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B13",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B15",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B04",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B05",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B20",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B18",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B21",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B14",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B17",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B22",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B11",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B19",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B24",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B07",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B09",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B10",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B06",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B12",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B23",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B03",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B02",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    }
+   ],
+   "parse_error": null
+  },
+  {
+   "set": "baseline",
+   "seed": 3,
+   "usage": {
+    "in": 853,
+    "out_incl_thinking": 2811,
+    "finish_reason": "FinishReason.STOP",
+    "model_version": "gemini-4-hydrogen"
+   },
+   "cost_usd": 0.060485,
+   "raw_text": "{\"labels\": [\"SUPPORTED\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\"]}",
+   "rows": [
+    {
+     "id": "B07",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B17",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B22",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B15",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B02",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B06",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B20",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B11",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B10",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B14",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B24",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B13",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B04",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B09",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B21",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B23",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B01",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B03",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B16",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B12",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B05",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B18",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B19",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B08",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    }
+   ],
+   "parse_error": null,
+   "rerun": {
+    "tries": 1,
+    "max_out": 32000
+   },
+   "first_attempt": {
+    "error": "ClientError: 402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at",
+    "parse_error": null,
+    "usage": null
+   }
+  },
+  {
+   "set": "baseline",
+   "seed": 4,
+   "usage": {
+    "in": 853,
+    "out_incl_thinking": 1526,
+    "finish_reason": "FinishReason.STOP",
+    "model_version": "gemini-4-hydrogen"
+   },
+   "cost_usd": 0.034785,
+   "raw_text": "{\"labels\": [\"ERROR\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"SUPPORTED\"]}",
+   "rows": [
+    {
+     "id": "B24",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B11",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B21",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B15",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B12",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B02",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B17",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B06",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B23",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B14",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B22",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B20",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B19",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B09",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B07",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B01",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B18",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B03",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B05",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B16",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B13",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B04",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B10",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B08",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    }
+   ],
+   "parse_error": null,
+   "rerun": {
+    "tries": 1,
+    "max_out": 32000
+   },
+   "first_attempt": {
+    "error": "ClientError: 402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at",
+    "parse_error": null,
+    "usage": null
+   }
+  },
+  {
+   "set": "baseline",
+   "seed": 5,
+   "usage": {
+    "in": 853,
+    "out_incl_thinking": 1653,
+    "model_version": "gemini-4-hydrogen"
+   },
+   "cost_usd": 0.037325,
+   "raw_text": "{\"labels\": [\"ERROR\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\"]}",
+   "rows": [
+    {
+     "id": "B23",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B14",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B10",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B22",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B19",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B11",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B05",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B13",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B07",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B04",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B24",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B06",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B16",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B03",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B18",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B02",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B08",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B15",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B01",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B17",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B21",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B12",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B09",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B20",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    }
+   ],
+   "parse_error": null
+  },
+  {
+   "set": "baseline",
+   "seed": 6,
+   "usage": {
+    "in": 853,
+    "out_incl_thinking": 1985,
+    "finish_reason": "FinishReason.STOP",
+    "model_version": "gemini-4-hydrogen"
+   },
+   "cost_usd": 0.043965,
+   "raw_text": "{\"labels\": [\"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\"]}",
+   "rows": [
+    {
+     "id": "B21",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B14",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B10",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B23",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B15",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B17",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B11",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B20",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B07",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B04",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B08",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B18",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B24",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B13",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B06",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B12",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B22",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B05",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B01",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B02",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B09",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B16",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B03",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B19",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    }
+   ],
+   "parse_error": null,
+   "rerun": {
+    "tries": 1,
+    "max_out": 32000
+   },
+   "first_attempt": {
+    "error": "ClientError: 402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at",
+    "parse_error": null,
+    "usage": null
+   }
+  },
+  {
+   "set": "baseline",
+   "seed": 7,
+   "usage": {
+    "in": 853,
+    "out_incl_thinking": 1800,
+    "model_version": "gemini-4-hydrogen"
+   },
+   "cost_usd": 0.040265,
+   "raw_text": "{\"labels\": [\"ERROR\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"ERROR\"]}",
+   "rows": [
+    {
+     "id": "B06",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B19",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B23",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B16",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B08",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B15",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B24",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B22",
+     "category": "judgment",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B07",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B20",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B14",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B17",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B09",
+     "category": "not_disclosed",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B01",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B10",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B12",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B04",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B18",
+     "category": "consistency",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B03",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B02",
+     "category": "fact",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B21",
+     "category": "judgment",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B13",
+     "category": "consistency",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "B05",
+     "category": "fact",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "B11",
+     "category": "not_disclosed",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    }
+   ],
+   "parse_error": null
+  },
+  {
+   "set": "hard",
+   "seed": 0,
+   "usage": {
+    "in": 900,
+    "out_incl_thinking": 9703,
+    "finish_reason": "FinishReason.STOP",
+    "model_version": "gemini-4-hydrogen"
+   },
+   "cost_usd": 0.19856,
+   "raw_text": "{\"labels\": [\"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\"]}",
+   "rows": [
+    {
+     "id": "H15",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H01",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H18",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H08",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H07",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H12",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H23",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H22",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H11",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H05",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H03",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H21",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H04",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H20",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H06",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H19",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H10",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H24",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H16",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H17",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H09",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H02",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H14",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H13",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    }
+   ],
+   "parse_error": null,
+   "rerun": {
+    "tries": 1,
+    "max_out": 32000
+   },
+   "first_attempt": {
+    "error": "ClientError: 402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at",
+    "parse_error": null,
+    "usage": null
+   }
+  },
+  {
+   "set": "hard",
+   "seed": 1,
+   "usage": {
+    "in": 900,
+    "out_incl_thinking": 12639,
+    "finish_reason": "FinishReason.STOP",
+    "model_version": "gemini-4-hydrogen"
+   },
+   "cost_usd": 0.25728,
+   "raw_text": "{\"labels\": [\"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"ABSTAIN\", \"ERROR\", \"ERROR\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"ERROR\"]}",
+   "rows": [
+    {
+     "id": "H21",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H12",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H24",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H18",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H22",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H14",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H06",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H11",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H10",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ABSTAIN",
+     "result": "missed"
+    },
+    {
+     "id": "H07",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H01",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H08",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H02",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H20",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H17",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H13",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H23",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H15",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H16",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H04",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H09",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H03",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H19",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H05",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    }
+   ],
+   "parse_error": null,
+   "rerun": {
+    "tries": 1,
+    "max_out": 32000
+   },
+   "first_attempt": {
+    "error": "ClientError: 402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at",
+    "parse_error": null,
+    "usage": null
+   }
+  },
+  {
+   "set": "hard",
+   "seed": 2,
+   "usage": {
+    "in": 900,
+    "out_incl_thinking": 7838,
+    "model_version": "gemini-4-hydrogen"
+   },
+   "cost_usd": 0.16126,
+   "raw_text": "{\"labels\": [\"SUPPORTED\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"ERROR\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"ERROR\"]}",
+   "rows": [
+    {
+     "id": "H16",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H08",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H01",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H13",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H15",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H04",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H05",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H20",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H18",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H21",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H14",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H17",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H22",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H11",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H19",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H24",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H07",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H09",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H10",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H06",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H12",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H23",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H03",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H02",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    }
+   ],
+   "parse_error": null
+  },
+  {
+   "set": "hard",
+   "seed": 3,
+   "usage": {
+    "in": 900,
+    "out_incl_thinking": 8482,
+    "model_version": "gemini-4-hydrogen"
+   },
+   "cost_usd": 0.17414,
+   "raw_text": "{\"labels\": [\"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\"]}",
+   "rows": [
+    {
+     "id": "H07",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H17",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H22",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H15",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H02",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H06",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H20",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H11",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H10",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H14",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H24",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H13",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H04",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H09",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H21",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H23",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H01",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H03",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H16",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H12",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H05",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H18",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H19",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H08",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    }
+   ],
+   "parse_error": null
+  },
+  {
+   "set": "hard",
+   "seed": 4,
+   "usage": {
+    "in": 900,
+    "out_incl_thinking": 32000,
+    "finish_reason": "FinishReason.MAX_TOKENS",
+    "model_version": "gemini-4-hydrogen"
+   },
+   "cost_usd": 0.6445,
+   "raw_text": "",
+   "rows": null,
+   "parse_error": "",
+   "rerun": {
+    "tries": 1,
+    "max_out": 32000
+   },
+   "first_attempt": {
+    "error": "ClientError: 402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at",
+    "parse_error": null,
+    "usage": null
+   }
+  },
+  {
+   "set": "hard",
+   "seed": 5,
+   "usage": {
+    "in": 900,
+    "out_incl_thinking": 7587,
+    "finish_reason": "FinishReason.STOP",
+    "model_version": "gemini-4-hydrogen"
+   },
+   "cost_usd": 0.15624,
+   "raw_text": "{\"labels\": [\"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"SUPPORTED\"]}",
+   "rows": [
+    {
+     "id": "H23",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H14",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H10",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H22",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H19",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H11",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H05",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H13",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H07",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H04",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H24",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H06",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H16",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H03",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H18",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H02",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H08",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H15",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H01",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H17",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H21",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H12",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H09",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H20",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    }
+   ],
+   "parse_error": null,
+   "rerun": {
+    "tries": 1,
+    "max_out": 32000
+   },
+   "first_attempt": {
+    "error": "ClientError: 402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at",
+    "parse_error": null,
+    "usage": null
+   }
+  },
+  {
+   "set": "hard",
+   "seed": 6,
+   "usage": {
+    "in": 900,
+    "out_incl_thinking": 8692,
+    "model_version": "gemini-4-hydrogen"
+   },
+   "cost_usd": 0.17834,
+   "raw_text": "{\"labels\": [\"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\"]}",
+   "rows": [
+    {
+     "id": "H21",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H14",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H10",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H23",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H15",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H17",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H11",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H20",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H07",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H04",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H08",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H18",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H24",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H13",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H06",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H12",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H22",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H05",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H01",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H02",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H09",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H16",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H03",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H19",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    }
+   ],
+   "parse_error": null
+  },
+  {
+   "set": "hard",
+   "seed": 7,
+   "usage": {
+    "in": 900,
+    "out_incl_thinking": 4680,
+    "model_version": "gemini-4-hydrogen"
+   },
+   "cost_usd": 0.0981,
+   "raw_text": "{\"labels\": [\"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"ABSTAIN\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"ERROR\", \"ERROR\", \"SUPPORTED\", \"SUPPORTED\", \"ERROR\", \"ERROR\"]}",
+   "rows": [
+    {
+     "id": "H06",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H19",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H23",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H16",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H08",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H15",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H24",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H22",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H07",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H20",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H14",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H17",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H09",
+     "category": "year_shift",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H01",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H10",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ABSTAIN",
+     "result": "missed"
+    },
+    {
+     "id": "H12",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H04",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H18",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H03",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H02",
+     "category": "unit_swap",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H21",
+     "category": "true_paraphrase",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H13",
+     "category": "true_derived",
+     "truth": "SUPPORTED",
+     "label": "SUPPORTED",
+     "result": "ok"
+    },
+    {
+     "id": "H05",
+     "category": "negation",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    },
+    {
+     "id": "H11",
+     "category": "scope_misattribution",
+     "truth": "ERROR",
+     "label": "ERROR",
+     "result": "caught"
+    }
+   ],
+   "parse_error": null
+  }
+ ]
+}
